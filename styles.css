@@ -1,0 +1,151 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+}
+
+#app {
+  background-color: white;
+  width: 720px;
+  max-width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin: auto;
+}
+
+.title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 2rem 0;
+  font-size: 2rem;
+}
+
+#app {
+  width: 720px;
+  max-width: 100%;
+}
+
+.main__container {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  position: relative;
+  background-color: white;
+  box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+  padding: 10px;
+}
+
+.city__wrapper {
+  width: 50%;
+  display: flex;
+  flex: 1;
+}
+
+.main__wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 50%;
+  flex: 2;
+  height: 100%;
+}
+
+.timezone__wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 1rem;
+}
+
+.timezone__city {
+  margin: 10px;
+  font-size: 1rem;
+}
+
+.timezone__color {
+  height: 40px;
+  width: 20px;
+  background-color: red;
+  border-radius: 5px;
+}
+
+.time {
+  font-size: 1.2rem;
+}
+
+.location__pallette {
+  width: 50%;
+  height: 18px;
+  max-width: 100%;
+  display: flex;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow-x: clip;
+  margin-right: -2rem;
+}
+
+.location__one {
+  min-width: 100%;
+  height: 100%;
+  display: flex;
+}
+
+.location__two {
+  min-width: 100%;
+  height: 100%;
+  display: flex;
+  position: relative;
+}
+
+.bar__four {
+  background-color: yellow;
+  width: 16.66%;
+  height: 100%;
+}
+.bar__three {
+  background-color: #57cc99;
+  width: 33.33%;
+  height: 100%;
+}
+.bar__two {
+  background-color: rgb(233, 233, 101);
+  width: 16.7%;
+  height: 100%;
+}
+.bar__one {
+  background-color: rgb(30, 29, 34);
+  width: 20.8%;
+  height: 100%;
+  border-bottom-left-radius: 100px;
+  border-top-left-radius: 100px;
+}
+.bar__five {
+  background-color: rgb(30, 29, 34);
+  width: 12.5%;
+  height: 100%;
+  border-bottom-right-radius: 100px;
+  border-top-right-radius: 100px;
+}
+
+.location__wrapper {
+  width: 50%;
+}
+
+.divider {
+  position: absolute;
+  border-left: 1px dashed red;
+  background-color: #57cc99;
+  height: 8rem;
+  z-index: 999;
+}
